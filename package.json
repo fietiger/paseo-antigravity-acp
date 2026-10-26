@@ -1,0 +1,30 @@
+{
+  "name": "paseo-antigravity-acp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Paseo provider for the Antigravity CLI over ACP, with conversation history on reopen.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fietiger/paseo-antigravity-acp.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "index.server.ts",
+    "server/",
+    "icon.svg"
+  ],
+  "dependencies": {
+    "@getpaseo/plugin": "0.13.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.9.3"
+  }
+}
